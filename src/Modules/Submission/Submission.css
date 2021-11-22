@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+.submissionWrapper {
+  margin-bottom: 1rem;
+  width: auto;
+  height: auto;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
+  border-radius: 20px;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.submissionContainer {
+  position: relative;
+  width: 350px;
+  height: auto;
+  padding: 1rem;
+  margin: 1rem;
+  box-sizing: border-box;
+  background: #ecf0f3;
+}
+
+.brand-titleText {
+  margin-top: 1rem;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #111;
+  letter-spacing: 1px;
+}
+
+.submissionInputContainer {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.submissionInput,
+.submissionBtn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.submissionInput {
+  margin-top: 12px;
+}
+
+.submissionInput.description {
+  height: 8rem;
+  resize: none;
+  border-radius: 1rem !important;
+}
+
+.submissionInput::placeholder {
+  color: gray;
+}
+
+.submissionInput {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.submissionBtn {
+  margin-top: 20px;
+  background: #1da1f2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.submissionBtn:hover {
+  box-shadow: none;
+}

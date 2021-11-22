@@ -1,0 +1,33 @@
+.user__activity {
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+/* .user__activity:hover {
+  transform: translateX(4px);
+  transform: translateY(-4px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 25px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+} */
+
+.user__activity__info {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  cursor: pointer;
+  background-color: #4362ee46;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activityIcon {
+  color: #4361ee;
+  font-size: 1.4rem;
+}

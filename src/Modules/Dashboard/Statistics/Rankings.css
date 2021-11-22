@@ -1,0 +1,61 @@
+.InfoCard {
+  width: 14rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0),
+    4px 4px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease-in-out;
+}
+
+.InfoCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+@media screen and (min-width: 320px) and (max-width: 1080px) {
+  * {
+    width: 80%;
+  } 
+}
+
+.Card {
+  background-color: rgba(183, 194, 243, 0.5);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.CardContent {
+  padding: 0.7rem 1rem 0.3rem 1rem;
+}
+
+.Row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.Row .justify {
+  justify-content: space-around;
+  width: 90%;
+}
+
+.Digit {
+  background-color: #6100d4;
+  padding: 0.8rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+}
+
+.InfoContainer {
+  margin-left: 0.7rem;
+}
+
+.Title {
+  color: black;
+}
+
+.SubTitle {
+  color: #333333;
+  font-weight: normal;
+}

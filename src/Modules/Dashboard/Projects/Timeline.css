@@ -1,0 +1,45 @@
+.activity {
+  color: #111;
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: 0.4s ease-in-out;
+}
+
+.activity:hover {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.activity__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity__container {
+  margin-top: 1rem;
+  position: relative;
+  background-color: #fff;
+}
+
+.activity__container::after {
+  content: "";
+  position: absolute;
+  top: 2%;
+  left: 27.7%;
+  height: 67%;
+  z-index: 1;
+  border-left: 3px dotted #111;
+}
+.transaction {
+  display: grid;
+  grid-template-columns: 0.8fr 0.3fr 2fr;
+  margin-bottom: 2rem;
+}
+
+.dot {
+  height: 0.6rem;
+  width: 0.6rem;
+  background-color: #f94144;
+  border-radius: 1rem;
+}

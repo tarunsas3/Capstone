@@ -1,0 +1,33 @@
+.music__metric {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.music__metric:hover {
+  transform: translateX(4px);
+  transform: translateY(-4px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 25px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.music__metric__info {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  background-color: #4362ee46;
+}
+
+.PiesSvg {
+  color: #4361ee;
+  font-size: 1.4rem;
+}

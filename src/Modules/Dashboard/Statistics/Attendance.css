@@ -1,0 +1,16 @@
+.top__Card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 100%;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0),
+    4px 4px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+.top__Card:hover {
+  transform: translateX(4px);
+  transform: translateY(-4px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px 25px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
